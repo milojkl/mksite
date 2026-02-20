@@ -13,7 +13,7 @@ h1, h2, h3, h4, footer {
   text-align: center;
 }
 
-@media screen and (min-width: 769px) {
+@media screen{
   body {
     max-width: 450px;
     margin-left: auto;
