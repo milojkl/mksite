@@ -1,4 +1,14 @@
 
-body {
+/*body {
   background-color: lightblue;
-} 
+} */
+
+body {
+  background-color: lightgray;
+  font-size: 14ptvw;
+  padding: 5px;
+}
+
+h1, h2, h3, h4, footer {
+  text-align: center;
+}
