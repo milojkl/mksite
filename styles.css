@@ -11,8 +11,11 @@ body {
   color:rgb(53, 53, 53)
 }
 
-h1, h2, h3, h4, footer {
+h1, h2, h4, footer {
   text-align: center;
+  font-family: Georgia;
+}
+h3 {
   font-family: Georgia;
 }
 nav {
@@ -21,13 +24,13 @@ nav {
 
 @media screen{
   body {
-    max-width: min(550px, 40%);
+    max-width: max(550px, 40%);
     margin-left: auto;
     margin-right: auto;
   }}
 
-   hr {height:2px;
-        border-width:0;
-        color:rgb(53, 53, 53);
-        background-color:rgb(53, 53, 53); 
+hr {height:2px;
+      border-width:0;
+      color:rgb(53, 53, 53);
+      background-color:rgb(53, 53, 53); 
    }
