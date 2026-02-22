@@ -34,3 +34,5 @@ hr {height:2px;
       color:rgb(53, 53, 53);
       background-color:rgb(53, 53, 53); 
    }
+
+ul li { margin-bottom: 10px; }
