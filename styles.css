@@ -4,8 +4,6 @@
 } */
 
 body {
-  display:flex;
-  flex-direction: column;
   background-color: rgb(171, 217, 203);
   font-size: 14ptvw;
   padding: 5px;
@@ -31,10 +29,10 @@ nav {
     margin-right: auto;
   }}
 
-hr {height:2px;
-      border-width:0;
+  hr {height:0px;
       color:rgb(53, 53, 53);
-      background-color:rgb(53, 53, 53); 
+      background-color:rgb(53,53,53); 
+
    }
 
 footer{
