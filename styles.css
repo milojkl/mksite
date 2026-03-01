@@ -14,6 +14,7 @@ body {
   background-color: rgb(34, 34, 34);
   color: rgb(186, 232, 218);
   
+  
 }
 
 h1, h2, h4, footer {
@@ -26,6 +27,21 @@ h3 {
 nav {
   text-align: center;
 }
+a:link {
+  color: #c82828
+}
+
+a:visited {
+  color: #AB2222
+}
+
+.dark-mode a:link {
+  color: #e15e5e;
+}
+
+.dark-mode a:visited {
+  color: #ff8181;
+}
 
 @media screen{
   body, footer {
@@ -34,11 +50,43 @@ nav {
     margin-right: auto;
   }}
 
-  hr {height:0px;
+hr {height:0px;
       color:rgb(53, 53, 53);
       background-color:rgb(53,53,53); 
 
    }
+
+.dark-mode hr {
+    height:0px;
+    color:rgb(171, 217, 203);
+    background-color:rgb(171, 217, 203); 
+      }
+
+
+
+button {
+  border-radius:8px;
+  font-family: monospace;
+  background-color:rgb(171, 217, 203) ;
+  padding: 8px;
+  border-color: rgb(53, 53, 53);
+  color: rgb(53, 53, 53);
+  font-weight: bold;
+  box-shadow: 0;
+  border-style: solid;
+}
+
+.dark-mode button {
+  border-radius:8px;
+  font-family: monospace;
+  background-color:rgb(53, 53, 53);
+  padding: 8px;
+  border-color: rgb(171, 217, 203);
+  color: rgb(171, 217, 203);
+  font-weight: bold;
+  box-shadow: 0;
+  border-style: solid;
+}
 
 footer{
   font-family: monospace;
@@ -51,3 +99,4 @@ footer{
 }
 
 ul li { margin-bottom: 10px; }
+
