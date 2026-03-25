@@ -17,6 +17,14 @@ body {
   
 }
 
+
+.postheader h3 {
+  display: inline;
+}
+.postheader span {
+  float: right;
+}
+
 h1, h2, h4, footer {
   text-align: center;
   font-family: Georgia;
