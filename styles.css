@@ -11,7 +11,7 @@ body {
   color:rgb(53, 53, 53)
 }
 .dark-mode {
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(26, 25, 31);
   color: rgb(186, 232, 218);
   
   
@@ -87,7 +87,7 @@ button {
 .dark-mode button {
   border-radius:8px;
   font-family: monospace;
-  background-color:rgb(53, 53, 53);
+  background-color:rgb(26, 25, 31);
   padding: 8px;
   border-color: rgb(171, 217, 203);
   color: rgb(171, 217, 203);
