@@ -16,7 +16,10 @@ body {
   
   
 }
-
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
 
 .postheader h3 {
   display: inline;
