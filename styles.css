@@ -8,7 +8,13 @@ body {
   font-size: 14ptvw;
   padding: 5px;
   font-family: monospace;
-  color:rgb(53, 53, 53)
+  color:rgb(53, 53, 53);
+  width: 40%;
+  margin: auto;
+
+
+
+
 }
 .dark-mode {
   background-color: rgb(26, 25, 31);
@@ -54,12 +60,14 @@ a:visited {
   color: #ff8181;
 }
 
-@media screen{
+
+/*  @media screen {
+  
   body, footer {
     max-width: max(550px, 40%);
     margin-left: auto;
     margin-right: auto;
-  }}
+  }} */
 
 hr {height:0px;
       color:rgb(53, 53, 53);
@@ -104,7 +112,8 @@ footer{
   font-size: 9pt;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 40%;
+  margin: auto;
   text-align: center;
   margin-bottom: 1%;
 }
