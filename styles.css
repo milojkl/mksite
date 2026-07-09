@@ -34,6 +34,13 @@ body {
   float: right;
 }
 
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} /*use for centring images*/
+
 h1, h2, h4, footer {
   text-align: center;
   font-family: Georgia;
