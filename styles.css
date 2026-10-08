@@ -2,20 +2,35 @@
 /*body {
   background-color: lightblue;
 } */
-
+@font-face {
+    font-family: bodoni;
+    src: url(/fonts/BodoniModa-Regular.woff2);
+  }
+@media screen {
+  
+  body, footer {
+    max-width: max(550px, 40%);
+    margin-left: auto;
+    margin-right: auto;
+  }}
 body {
   background-color: rgb(171, 217, 203);
   font-size: 14ptvw;
   padding: 5px;
+ /*font-family: monospace;*/
   font-family: monospace;
   color:rgb(53, 53, 53);
   /*width: 40%;*/
   margin: auto;
 
 
+  
 
 
 }
+
+
+
 .dark-mode {
   background-color: rgb(26, 25, 31);
   color: rgb(186, 232, 218);
@@ -43,10 +58,10 @@ body {
 
 h1, h2, h4, footer {
   text-align: center;
-  font-family: Georgia;
+  font-family: bodoni, Georgia;
 }
 h3 {
-  font-family: Georgia;
+  font-family: bodoni, Georgia;
 }
 nav {
   text-align: center;
@@ -68,13 +83,7 @@ a:visited {
 }
 
 
- @media screen {
-  
-  body, footer {
-    max-width: max(550px, 40%);
-    margin-left: auto;
-    margin-right: auto;
-  }}
+ 
 
 hr {height:0px;
       color:rgb(53, 53, 53);
