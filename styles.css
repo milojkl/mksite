@@ -100,7 +100,7 @@ hr {height:0px;
 
 
 button {
-  border-radius:8px;
+  border-radius:3px;
   font-family: monospace;
   background-color:rgb(171, 217, 203) ;
   padding: 8px;
@@ -112,7 +112,7 @@ button {
 }
 
 .dark-mode button {
-  border-radius:8px;
+  border-radius:3px;
   font-family: monospace;
   background-color:rgb(26, 25, 31);
   padding: 8px;
